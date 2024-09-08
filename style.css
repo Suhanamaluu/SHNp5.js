@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  h1 {
+    color: #118a7e;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  .game-status {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .reset-button {
+    background-color: #93e4c1;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset-button:hover {
+    background-color: #3baea0;
+  }
+  
+  /* Board Styling */
+  .game-board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+  }
+  
+  .square {
+    background-color: #1f6f78;
+    border: 2px solid #34495e;
+    font-size: 2em;
+    font-weight: bold;
+    color: #34495e;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .square:hover {
+    background-color: #118a7e;
+    transform: scale(1.05);
+  }
+  
+  
+  
